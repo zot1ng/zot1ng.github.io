@@ -1,0 +1,61 @@
+p{
+  color: rgb(45,54,54);
+  margin-top: auto;
+  margin-bottom: 16px;
+}
+
+a.tinglink{
+  padding: 0px 20px;
+  margin-left: 10px;
+  border-radius: 50px;
+  color: rgb(56,61,61);
+  margin-top: auto;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+a.tinglink{
+  background-color: rgb(223,223,223);
+  border: 2px solid rgb(36, 47, 74);
+  padding: 5px 30px 5px 30px;
+  margin: 0px 0px 0px 20px;
+}
+
+a.tinglink:hover{
+  background-color:rgb(36, 47, 74);
+  color: rgb(198,203,203);
+}
+
+div.tinglinkdivgrey{
+  background-color: rgb(113,12,12);
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 95%;
+  height: 100px;
+  margin: 10px auto;
+  overflow: auto;
+}
+
+h4.tingsmallh4{
+  font-size: 18px;
+}
+
+
+section#about.resume-section{
+  background-color:rgb(224,225,220);
+}
+
+.tingcrop{
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+  margin: 10px 5px;
+  border-radius: 10px;
+}
+
+.tingcallmebg{
+  background-image: url("../assets/img/biliejump.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
