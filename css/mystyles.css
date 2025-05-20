@@ -59,3 +59,13 @@ section#about.resume-section{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.tingserif{
+  font-family: "Noto Serif TC", serif;
+}
+
+
+.tinghl{
+  color: rgb(120, 157, 157);
+  font-weight: 900;
+}
