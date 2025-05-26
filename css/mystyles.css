@@ -66,26 +66,26 @@ section#about.resume-section{
 
 .slider-container {
   overflow: hidden;
-  height: 100%;
-  margin-bottom: 10px;
+  height: 100%;     /*父元素高度的100%*/
+  margin-bottom: 10px;     /*下方留出10px的外邊距*/
 }
 
 .slider-track {
-  display: flex;
-  animation: scroll 60s linear infinite;
+  display: flex;    /*橫向排列*/
+  animation: scroll 60s linear infinite;      /*啟用動畫效果:名稱為scroll，動畫持續時間為60秒，採用線性linear速度，並無限次播放infinite*/
 }
 
 .slider-track img {
   height: 200px;
-  flex-shrink: 0;
+  flex-shrink: 0;      /*確保每張圖片都維持原來大小*/
   margin-right: 10px;
   border-radius: 10px;
   object-fit: cover;
 }
 
-@keyframes scroll {
+@keyframes scroll {                   /*定義滑動動畫的移動範圍*/
   0% {
-    transform: translateX(0);
+    transform: translateX(0);          /*開始時，整條圖片列的位置不偏移*/
   }
   100% {
     transform: translateX(-6400px); /* 若仍使用靜態寬度可保留，但需注意彈性 */
