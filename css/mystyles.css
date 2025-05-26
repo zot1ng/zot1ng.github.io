@@ -64,3 +64,34 @@ section#about.resume-section{
   font-family: "Noto Serif TC", serif;
 }
 
+.slider-container {
+  overflow: hidden;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.slider-track {
+  display: flex;
+  animation: scroll 60s linear infinite;
+}
+
+.slider-track img {
+  height: 200px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  border-radius: 10px;
+  overflow-y: hidden;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-6400px); /* (300+10)x20 = 原始一組圖片總寬度 */
+  }
+}
+
