@@ -67,8 +67,6 @@ section#about.resume-section{
 .slider-container {
   overflow: hidden;
   height: 100%;
-  overflow: hidden;
-  object-fit: cover;
   margin-bottom: 10px;
 }
 
@@ -82,7 +80,6 @@ section#about.resume-section{
   flex-shrink: 0;
   margin-right: 10px;
   border-radius: 10px;
-  overflow-y: hidden;
   object-fit: cover;
 }
 
@@ -91,7 +88,8 @@ section#about.resume-section{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-6400px); /* (300+10)x20 = 原始一組圖片總寬度 */
+    transform: translateX(-6400px); /* 若仍使用靜態寬度可保留，但需注意彈性 */
   }
 }
+
 
